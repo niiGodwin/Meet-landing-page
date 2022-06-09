@@ -1,31 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Meet landing page</title>
-</head>
-<body>
-  Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
 
-  Download v1.3
-  What is it?
+    <link rel="stylesheet" href="./resources/css/style.css" />
+    <link rel=”stylesheet”
+    href=”https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css”rel=”nofollow”
+    integrity=”sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm”
+    crossorigin=”anonymous”>
 
-  01
-  Built for modern use
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
 
-  Smarter meetings, all in one place
+    <title>Frontend Mentor | Meet landing page</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <img src="./assets/logo.svg" />
+    </header>
 
-  Send messages, share files, show your screen, and record your meetings — all in one 
-  workspace. Control who can join with invite-only team access, data encryption, and data export.
+    <!-- MAIN CONTENT -->
+    <div class="main-content">
+      <div>
+        <img src="./assets/desktop/image-hero-left.png" />
+      </div>
+      <div class="main-content-text">
+        <h1 id="topic">Group Chat for Everyone</h1>
+        <h6 id="group-chat-explanation">
+          Meet makes it easy to connect with others face-to-face virtually and
+          collaborate across any device
+        </h6>
+        <div id="group-chat-buttons">
+          <button id="greenBtn">
+            Download <span id="version-number">v1.3</span>
+          </button>
+          <button id="purpleBtn">What is it?</button>
+        </div>
+      </div>
+      <div>
+        <img src="./assets/desktop/image-hero-right.png" />
+      </div>
+    </div>
 
-  02
-  Experience more together
-  Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.
+    <!-- FEATURE -->
+    <div class="feature-images">
+      <img src="./assets/desktop/image-woman-in-videocall.jpg" />
+      <img src="./assets/desktop/image-women-videochatting.jpg" />
+      <img src="./assets/desktop/image-men-in-meeting.jpg" />
+      <img src="./assets/desktop/image-man-texting.jpg" />
+    </div>
 
-  Download v1.3
-</body>
+    <!-- EXPLANATION -->
+    <div class="explanation-container">
+      <div id="explanation-text-container">
+        <div id="overline">
+          <h3>BUILT FOR MODERN USE</h3>
+        </div>
+        <div id="explanation-topic">
+          <h2>Smarter meetings, all in one place</h2>
+        </div>
+        <div id="explanation-topic">
+          <h6>
+            Send messages, share files, show your screen, and record your
+            meetings — all in one workspace. Control who can join with
+            invite-only team access, data encryption, and data export.
+          </h6>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+      <div class="footer-container">
+        <div id="topic">
+          <h2>Experience more together</h2>
+        </div>
+        <div id="explanation-footer">
+          <h6>
+            Stay connected with reliable HD meetings and unlimited one-on-one
+            and group video sessions.
+          </h6>
+        </div>
+        <div id="download-button-container">
+          <button id="purpleBtn">
+            Download <span id="purple-version-number">v1.3</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
