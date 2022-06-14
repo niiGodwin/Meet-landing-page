@@ -1,4 +1,6 @@
 html {
+  margin: 0;
+  border: 0;
   font-family: "Red Hat Display", sans-serif;
 }
 
@@ -54,8 +56,10 @@ button {
 /* HEADER STUFF */
 header {
   display: flex;
-  margin-top: 80px;
+  /* width: 100%; */
   justify-content: center;
+  /* background-color: black; */
+  margin: 80px auto;
 }
 
 .main-content {
