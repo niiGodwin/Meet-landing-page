@@ -11,8 +11,8 @@
       href="./assets/favicon-32x32.png"
     />
 
+    <link rel="stylesheet" href="./resources/css/reset.css" />
     <link rel="stylesheet" href="./resources/css/style.css" />
-    <!-- <link rel="stylesheet" href="./resources/css/reset.css" /> -->
     <link rel=”stylesheet”
     href=”https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css”rel=”nofollow”
     integrity=”sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm”
@@ -25,6 +25,12 @@
       rel="stylesheet"
     />
 
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+
     <title>Frontend Mentor | Meet landing page</title>
   </head>
   <body>
@@ -35,24 +41,50 @@
 
     <!-- MAIN CONTENT -->
     <div class="main-content">
-      <div>
-        <img src="./assets/desktop/image-hero-left.png" />
-      </div>
-      <div class="main-content-text">
-        <h1 id="topic">Group Chat for Everyone</h1>
-        <h6 id="group-chat-explanation">
-          Meet makes it easy to connect with others face-to-face virtually and
-          collaborate across any device
-        </h6>
-        <div id="group-chat-buttons">
-          <button id="greenBtn">
-            Download <span id="version-number">v1.3</span>
-          </button>
-          <button id="purpleBtn">What is it?</button>
+      <div class="desktop">
+        <div>
+          <img src="./assets/desktop/image-hero-left.png" />
+        </div>
+        <div class="main-content-text">
+          <h1 id="topic">Group Chat for Everyone</h1>
+          <h6 id="group-chat-explanation">
+            Meet makes it easy to connect with others face-to-face virtually and
+            collaborate across any device
+          </h6>
+          <div id="group-chat-buttons">
+            <button id="greenBtn">
+              Download <span id="version-number">v1.3</span>
+            </button>
+            <button id="purpleBtn">What is it?</button>
+          </div>
+        </div>
+        <div>
+          <img src="./assets/desktop/image-hero-right.png" />
         </div>
       </div>
-      <div>
-        <img src="./assets/desktop/image-hero-right.png" />
+      <!-- MOBILE -->
+      <div class="mobile">
+        <div class="images">
+          <div>
+            <img src="./assets/desktop/image-hero-left.png" />
+          </div>
+          <div>
+            <img src="./assets/desktop/image-hero-right.png" />
+          </div>
+        </div>
+        <div class="main-content-text">
+          <h1 id="topic">Group Chat for Everyone</h1>
+          <h6 id="group-chat-explanation">
+            Meet makes it easy to connect with others face-to-face virtually and
+            collaborate across any device
+          </h6>
+          <div id="group-chat-buttons">
+            <button id="greenBtn">
+              Download <span id="version-number">v1.3</span>
+            </button>
+            <button id="purpleBtn">What is it?</button>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -73,7 +105,7 @@
         <div id="explanation-topic">
           <h2>Smarter meetings, all in one place</h2>
         </div>
-        <div id="explanation-topic">
+        <div id="explanation-text">
           <h6>
             Send messages, share files, show your screen, and record your
             meetings — all in one workspace. Control who can join with
