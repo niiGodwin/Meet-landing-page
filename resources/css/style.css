@@ -5,12 +5,111 @@ html {
   font-size: 16px;
 }
 
+h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  color: #28283d;
+  line-height: 4rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #28283d;
+  text-align: center;
+}
+
+h6 {
+  font-size: 1.125rem;
+  color: #87879d;
+  text-align: center;
+  font-weight: 500;
+}
+
+button {
+  /* width: 200px; */
+  height: 60px;
+  border-radius: 30px;
+  border-width: 0;
+  color: white;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 900;
+}
+
 header {
-  display: flex;
-  justify-content: center;
+  display: block;
   overflow-x: hidden;
 }
 
 header .logo {
+  display: block;
   margin: 40px auto 80px auto;
+}
+
+section {
+  padding: 45px 0;
+}
+
+.container {
+  width: 98%;
+  display: flex;
+  justify-content: center;
+}
+
+.section-one .container {
+  display: block;
+  position: relative;
+  width: 100%;
+  /* background-color: red; */
+}
+
+.hero {
+  width: 30%;
+}
+
+.left {
+  position: absolute;
+  top: 0;
+  left: -2.5%;
+}
+
+.right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.hero img {
+  width: 100%;
+}
+
+.section-one-test-container {
+  width: 35%;
+  margin: auto;
+}
+
+.section-one h1,
+h6 {
+  margin-bottom: 2rem;
+}
+
+.section-one #download {
+  background-color: #4d96a9;
+  margin: 0 20px;
+}
+.section-one #about {
+  background-color: #855fb1;
+}
+
+.section-two {
+  display: none;
+}
+
+.section-three {
+  display: none;
+}
+
+.section-four {
+  display: none;
 }
