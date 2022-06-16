@@ -37,6 +37,17 @@ button {
   font-weight: 900;
 }
 
+.section #download:hover {
+  background-color: #71c0d4;
+}
+.section #about:hover {
+  background-color: #b18bdd;
+}
+
+footer #footer-download:hover {
+  background-color: #b18bdd;
+}
+
 header {
   display: block;
   overflow-x: hidden;
@@ -55,6 +66,10 @@ section {
   width: 98%;
   display: flex;
   justify-content: center;
+}
+
+.section-one {
+  margin-bottom: 10rem;
 }
 
 .section-one .container {
@@ -115,7 +130,6 @@ h6 {
 
 .section-two {
   width: 100%;
-  margin-top: 5rem;
 }
 
 .section-two img {
@@ -255,10 +269,18 @@ footer button {
   }
 
   #section-one-buttons-container {
-    width: 50%;
-    /* display: flex;
-    justify-content: center; */
+    width: 80%;
     margin: auto;
+  }
+
+  .section-two .container {
+    width: 100%;
+  }
+
+  .section-two img {
+    width: 20%;
+    margin: 0.7rem;
+    border-radius: 0.5rem;
   }
 
   footer {
@@ -411,3 +433,15 @@ footer button {
     justify-content: center;
   }
 }
+
+@media only screen and (min-width: 1600) {
+  .section-one {
+    margin-bottom: 20rem;
+  }
+}
+
+/* @media only screen and (max-width: 1600) {
+  .section-two {
+    margin-top: 40rem;
+  }
+} */
