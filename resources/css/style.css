@@ -69,7 +69,7 @@ section {
 }
 
 .section-one {
-  margin-bottom: 10rem;
+  margin-bottom: 15rem;
 }
 
 .section-one .container {
@@ -80,6 +80,7 @@ section {
 
 .hero {
   width: 30%;
+  max-width: 500px;
 }
 
 .heros {
@@ -263,6 +264,10 @@ footer button {
     margin: auto;
   }
 
+  .section-one {
+    margin-bottom: 5rem;
+  }
+
   .section-one-test-container {
     width: 50%;
     margin: auto;
@@ -366,7 +371,7 @@ footer button {
   }
 
   #section-one-buttons-container {
-    width: 50%;
+    width: 80%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -434,14 +439,14 @@ footer button {
   }
 }
 
-@media only screen and (min-width: 1600) {
+@media only screen and (min-width: 1440) {
   .section-one {
     margin-bottom: 20rem;
   }
 }
-
-/* @media only screen and (max-width: 1600) {
+/* 
+@media only screen and (max-width: 2000) {
   .section-two {
-    margin-top: 40rem;
+    margin-top: 4rem;
   }
 } */
