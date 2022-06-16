@@ -113,9 +113,7 @@ h6 {
 }
 
 .section-three {
-  /* display: none; */
-  margin-top: 5rem;
-  /* background-color: red; */
+  margin: 5rem auto;
 }
 
 .section-three .container {
@@ -142,6 +140,62 @@ h6 {
   line-height: 1.7rem;
 }
 
-.section-four {
-  display: none;
+footer {
+  background-image: url("../../assets/desktop/image-footer.jpg");
+
+  position: relative;
+  background-color: #fafafa;
+  background-size: cover;
+  font-size: 1.125rem;
+  z-index: 1;
+  height: 300px;
+}
+
+footer .container {
+  height: 100%;
+  width: 90%;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+}
+
+footer .overlay {
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(77, 150, 168, 0.9);
+}
+
+footer h2 {
+  font-size: 2.5rem;
+  text-align: left;
+  color: white;
+  font-weight: 900;
+  width: 40%;
+}
+
+footer h6 {
+  color: white;
+  width: 30%;
+  text-align: left;
+  padding-top: -10px;
+}
+
+footer .download-container {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+footer button {
+  background-color: #855fb1;
+  margin: 0 20px;
+}
+
+#purple-version-number {
+  color: #d9b8ff;
 }
