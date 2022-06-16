@@ -67,6 +67,10 @@ section {
   width: 30%;
 }
 
+.heros {
+  display: none;
+}
+
 .left {
   position: absolute;
   top: 0;
@@ -99,6 +103,14 @@ h6 {
 }
 .section-one #about {
   background-color: #855fb1;
+}
+
+#section-one-buttons-container {
+  /* background-color: red; */
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
 
 .section-two {
@@ -198,4 +210,83 @@ footer button {
 
 #purple-version-number {
   color: #d9b8ff;
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #28283d;
+    line-height: 4rem;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+    color: #28283d;
+    text-align: center;
+  }
+
+  h6 {
+    font-size: 1rem;
+    color: #87879d;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .left,
+  .right {
+    display: none;
+  }
+
+  .heros {
+    display: block;
+    width: 100%;
+  }
+
+  .section-one-test-container {
+    width: 50%;
+    margin: auto;
+  }
+
+  #section-one-buttons-container {
+    width: 50%;
+    /* display: flex;
+    justify-content: center; */
+    margin: auto;
+  }
+
+  footer {
+    background-image: url("../../assets/tablet/image-footer.jpg");
+    height: 400px;
+  }
+
+  footer .container {
+    display: flex;
+    flex-direction: column;
+    margin: auto auto;
+  }
+
+  footer h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    width: 60%;
+    margin-bottom: 4rem;
+  }
+
+  footer h6 {
+    color: white;
+    width: 80%;
+    text-align: center;
+    padding-top: -10px;
+    margin-bottom: 2rem;
+  }
+
+  footer .download-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
 }
